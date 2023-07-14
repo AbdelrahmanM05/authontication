@@ -1,0 +1,22 @@
+/* START Home SECTION */
+body {
+    background-color: #24353f;
+    font-family: 'Courier New', Courier, monospace, Times, serif;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+.home-mess {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.home-mess h1 {
+    color: #17a2b8;
+}
+
+/* END Home SECTION */

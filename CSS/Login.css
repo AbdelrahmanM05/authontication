@@ -1,0 +1,31 @@
+/* START RegistrationPage SECTION */
+body {
+    background-color: #24353f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-page {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.form-page h1 {
+    color: #17a2b8;
+}
+
+.form-control {
+    background-color: transparent;
+
+}
+
+.sign {
+    color: white;
+    text-decoration: none;
+}
+
+.sign:hover {
+    text-decoration: underline;
+}
+input::placeholder{
+    color: white;
+}
+/* END RegistrationPage SECTION */

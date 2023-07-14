@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/registration.css">
+    <title>RegistrationForm</title>
+</head>
+
+<body>
+    <section class="Registration py-5 m-5">
+        <div class="container">
+            <div class="row">
+                <div class="form-page w-75 mx-auto p-5 text-center">
+                    <h1 class="text-diver mb-4">Smart Login System</h1>
+                    <div class="form-group">
+                        <input type="text" class="form-control  my-3" id="userName" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control  my-3" id="userEmail" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control my-3" id="userPassword"
+                            placeholder="Enter Your Password">
+                    </div>
+                    <p id="alertMessage"></p>
+                    <button class="btn btn-outline-primary w-100 my-3" id="signUpBtn">Sing Up</button>
+                    <p class="text-white">You have an account?<a href="login.html" class="sign">Sign In</a></p>
+                </div>
+                <div class="d-none text-white" id="requiredInputs">
+                    <p>The Name must start with Capital and followed by max 8 Letters Small</p>
+                    <p>The Email must contain <span>(@)</span> and end with <span>(.com)</span></p>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+
+</body>
+
+</html>
